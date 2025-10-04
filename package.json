@@ -1,0 +1,33 @@
+{
+  "name": "vuetify-to-xlsx",
+  "version": "1.0.0",
+  "description": "NPM library for Vuetify that directly exports your v-data-table component to an Excel file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marned0/vuetify-to-xlsx.git"
+  },
+  "keywords": [
+    "vuetify",
+    "excel",
+    "xlsx",
+    "v-data-table",
+    "export",
+    "vue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marned0/vuetify-to-xlsx/issues"
+  },
+  "homepage": "https://github.com/marned0/vuetify-to-xlsx#readme",
+  "peerDependencies": {
+    "vuetify": "^3.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
