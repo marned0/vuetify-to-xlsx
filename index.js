@@ -18,17 +18,17 @@ function exportToXlsx(options = {}) {
   const {
     headers = [],
     items = [],
-    fileName = 'export.xlsx',
-    sheetName = 'Sheet1'
+    fileName = 'exportacion.xlsx',
+    sheetName = 'Exportacion'
   } = options;
 
   // Validate inputs
   if (!Array.isArray(headers) || headers.length === 0) {
-    throw new Error('Headers array is required and cannot be empty');
+    throw new Error('El array de encabezados es obligatorio y no puede estar vacío');
   }
 
   if (!Array.isArray(items) || items.length === 0) {
-    throw new Error('Items array is required and cannot be empty');
+    throw new Error('El array de elementos es obligatorio y no puede estar vacío');
   }
 
   // TODO: Implementation will be added in future iterations
